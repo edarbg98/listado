@@ -1,0 +1,43 @@
+input, button {
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #c79dcb;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #c79dcb;
+}
+
+.contenedor {
+    overflow-y: auto;
+    height: 150px;
+    border: 1px solid #c79dcb;
+    border-radius: 8px;
+}
+
+.contenedor::-webkit-scrollbar {
+    width: 2px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+    background-color: #c79dcb;
+    border-radius: 8px;
+}
+
+section {
+    position: relative;
+    top: 32px;
+}
+
+button {
+    transition: color 0.5s ease-in-out,
+    background-color 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #c79dcb;
+    color: dimgrey;
+}

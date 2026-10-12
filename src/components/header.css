@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    top: 0;
+}
+
+p {
+    color: darkgray;
+}
+
+h1 {
+    color: #c79dcb;
+}
